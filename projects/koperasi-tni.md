@@ -1,60 +1,64 @@
-# 🏦 Sistem Informasi Manajemen Koperasi & ERP Terintegrasi (Koperasi TNI)
+# 🏢 Enterprise Cooperative ERP & Integrated Financial System
 
-> **Status:** Production (Digunakan oleh Koperasi Balai Sudirman/TNI)
-> **Role:** Fullstack Developer
-> **Type:** ERP / B2B Enterprise System
+> **Tipe Proyek:** Pengembangan Produk Sistem Informasi & ERP<br/>
+> **Status Implementasi:** Pilot Project / Production Stage<br/>
+> **Lokasi Pilot:** Koperasi TNI<br/>
+> **Role:** Lead Fullstack Developer
 
-### 📖 Executive Summary
+### 📖 Project Overview
 
-Proyek ini adalah solusi **All-in-One ERP** yang dirancang untuk memodernisasi ekosistem Koperasi TNI. Sistem ini menggabungkan manajemen keanggotaan (Simpan Pinjam) dengan operasional bisnis riil (Ritel/Jasa) dalam satu database terpusat.
+Proyek ini adalah inisiatif pengembangan **Sistem Informasi Manajemen Terpadu** yang dirancang untuk memodernisasi ekosistem bisnis koperasi di Indonesia.
 
-**Masalah Utama yang Diselesaikan:**
-Sebelumnya, pencatatan transaksi kasir, simpan pinjam, dan penggajian dilakukan terpisah, menyebabkan ketidakcocokan data akuntansi (human error) dan laporan keuangan yang terlambat.
+Sebagai tahap validasi awal (*Proof of Concept*), sistem ini diimplementasikan dalam skala **Pilot Project** di lingkungan **Koperasi TNI (Balai Sudirman)**. Lokasi ini dipilih karena memiliki kompleksitas operasional yang tinggi, mencakup unit Simpan Pinjam, Ritel (Minimarket), dan Jasa, sehingga menjadi tolak ukur yang ideal untuk menguji ketangguhan sistem.
 
-**Solusi:**
-Membangun sistem dengan **"Financial Logic Engine"** di mana setiap transaksi operasional (Front-end) secara otomatis menjurnal dirinya sendiri ke dalam buku besar akuntansi (Back-end) secara real-time.
-
----
-
-### ⚙️ Key Technical Features
-
-#### 1. Core Banking System (Simpan Pinjam)
-
-Modul untuk mendigitalkan siklus hidup anggota koperasi.
-
-* **Member Lifecycle:** Pendaftaran digital, status keaktifan, dan profil.
-* **Financial Products:** Manajemen Simpanan (Pokok/Wajib/Sukarela) dan Pinjaman (Approval workflow, perhitungan bunga/bagi hasil otomatis).
-* **Settlement:** Manajemen AR/AP anggota dan rekonsiliasi Bank.
-
-#### 2. Unit Usaha & Point of Sales (Retail ERP)
-
-Modul untuk mengelola bisnis ritel milik koperasi (Minimarket/Toko).
-
-* **Omnichannel POS:** Kasir terhubung langsung dengan stok gudang.
-* **Inventory Management:** Stok opname, alert stok menipis, dan metode perpetual inventory.
-* **Asset Management:** Pencatatan aset tetap dengan **kalkulasi penyusutan otomatis (Depreciation Scheduler)** setiap akhir bulan.
-
-#### 3. HRM & Payroll Automation
-
-Sistem penggajian yang terintegrasi dengan mesin absensi fisik.
-
-* **Smart Sync Fingerprint:** Sinkronisasi *real-time* data kehadiran dari mesin fisik ke cloud server.
-* **Complex Payroll Logic:** Kalkulasi otomatis Gaji Pokok + Tunjangan + Lembur (berdasarkan log jam) - Potongan (BPJS/PPh 21/Kasbon).
-* **Tax Engine:** Perhitungan estimasi PPh 21 karyawan otomatis.
+**Tantangan Utama:**
+Mengubah pola kerja konvensional yang terfragmentasi (antar unit usaha) menjadi ekosistem digital terpusat yang menjamin integritas data akuntansi dan efisiensi operasional.
 
 ---
 
-### 🧠 The "Secret Sauce": Automated Financial Logic
+### ⚙️ Arsitektur Sistem & Fitur Utama
 
-Fitur paling kompleks dalam sistem ini adalah **Auto-Journaling Engine**. Sistem menerjemahkan transaksi bisnis menjadi jurnal akuntansi standar PSAK tanpa intervensi manual.
+Sistem ini dibangun dengan konsep **Multi-Tenancy** dan **Centralized Database**, memungkinkan Pengurus Pusat memantau performa seluruh unit usaha secara *real-time*.
 
-| Tipe Transaksi | Trigger (Aktivitas User) | Logika Backend (Auto-Journal) |
+#### 1. Core System Koperasi (Simpan Pinjam)
+
+Modul inti untuk mendigitalkan siklus hidup keanggotaan.
+
+* **Member Lifecycle:** Manajemen database anggota, profil digital, dan status keaktifan.
+* **Financial Engine:** Kalkulasi otomatis bunga/bagi hasil untuk Simpanan (Wajib/Pokok/Sukarela) dan skema angsuran Pinjaman.
+* **Secure Approval:** Workflow persetujuan berjenjang untuk pencairan dana.
+
+#### 2. Retail ERP & Point of Sales (Unit Usaha)
+
+Modul manajemen bisnis riil (Sektor Ritel/Toko) yang terintegrasi penuh.
+
+* **Integrated POS:** Kasir front-end yang terhubung langsung dengan *Inventory Management* (Stok Opname & Alert System).
+* **Asset Management:** Pencatatan aset tetap inventaris dengan fitur **Depreciation Scheduler** (Penghitung penyusutan nilai aset otomatis setiap akhir bulan).
+
+#### 3. Human Resource & Payroll Automation
+
+Sistem penggajian cerdas yang mengurangi beban administrasi HR.
+
+* **Smart Sync Integration:** Sinkronisasi data dari mesin *fingerprint* fisik ke server cloud secara *real-time*.
+* **Complex Payroll Logic:** Kalkulasi gaji otomatis yang memperhitungkan:
+  * Log kehadiran & Keterlambatan.
+  * Rumus Lembur (Overtime).
+  * Potongan wajib (BPJS, PPh 21, Kasbon).
+
+---
+
+### 🧠 The "Financial Logic" Engine (Auto-Journaling)
+
+Nilai jual utama dari pengembangan sistem ini adalah fitur **Otomasi Akuntansi**. Sistem dirancang untuk menerjemahkan aktivitas operasional menjadi jurnal akuntansi standar PSAK secara otomatis. Ini meminimalisir kebutuhan akan staf akuntan di setiap unit.
+
+**Logika Pemrosesan Data:**
+
+| Aktivitas User (Frontend) | Trigger Sistem | Eksekusi Jurnal Otomatis (Backend) |
 | :--- | :--- | :--- |
-| **Simpanan** | Teller input setoran anggota | `(Dr) Kas/Bank` <br> `(Cr) Liabilitas Simpanan` |
-| **Penjualan Ritel** | Kasir cetak struk | 1. `(Dr) Kas` & `(Cr) Pendapatan` <br> 2. `(Dr) HPP` & `(Cr) Persediaan` (Update Stok) |
-| **Pembelian Aset** | Procurement beli aset | `(Dr) Aset Tetap` <br> `(Cr) Kas/Hutang` |
-| **Payroll Run** | HR Approve Gaji | `(Dr) Beban Gaji` <br> `(Cr) Hutang Gaji / Bank` |
-| **Penyusutan** | Scheduler (Akhir Bulan) | `(Dr) Beban Penyusutan` <br> `(Cr) Akumulasi Penyusutan` |
+| **Teller Terima Setoran** | Submit Transaksi | `(Dr) Kas` <br> `(Cr) Liabilitas Simpanan Anggota` |
+| **Kasir Ritel Cetak Struk** | Transaksi Selesai | 1. `(Dr) Kas` & `(Cr) Pendapatan Penjualan` <br> 2. `(Dr) HPP` & `(Cr) Persediaan` (Metode Perpetual) |
+| **Procurement Beli Aset** | Approval PO | `(Dr) Aset Tetap` <br> `(Cr) Hutang Usaha / Kas` |
+| **HR Finalisasi Gaji** | Payroll Run | `(Dr) Beban Gaji & Tunjangan` <br> `(Cr) Hutang Gaji / Bank` |
 
 ---
 
