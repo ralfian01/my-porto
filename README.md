@@ -4,7 +4,7 @@
 
 Saya adalah pengembang web yang berfokus membangun aplikasi skalabel dengan efisiensi bisnis yang nyata. Berpengalaman menangani proyek freelance untuk instansi pemerintah (B2G) dan sektor swasta (B2B), mulai dari sistem manajemen kompleks hingga profil perusahaan.
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](linkedin.com/in/mrifkyalfian)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mrifkyalfian)
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:ralfian096.project@gmail.com)
 <!-- [![Portfolio Badge](https://img.shields.io/badge/-Portfolio-success?style=flat&logo=Google-Chrome&logoColor=white)]([LINK_WEBSITE_JIKA_ADA]) -->
 
