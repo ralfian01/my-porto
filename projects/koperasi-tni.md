@@ -3,7 +3,8 @@
 > **Tipe Proyek:** Pengembangan Produk Sistem Informasi & ERP<br/>
 > **Status Implementasi:** Pilot Project / Production Stage<br/>
 > **Lokasi Pilot:** Koperasi TNI<br/>
-> **Role:** Lead Fullstack Developer
+> **Role:** Lead Fullstack Developer<br/>
+> 🔒 **Repository Status:** *Private (NDA Protected)* *Karena alasan kerahasiaan data klien dan kontrak kerja, source code tidak dapat dipublikasikan.*
 
 ### 📖 Project Overview
 
