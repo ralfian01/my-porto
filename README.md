@@ -36,7 +36,7 @@ Berikut adalah teknologi yang saya gunakan untuk membangun solusi:
 
 ### 1. 🏦 Sistem ERP & Koperasi Terintegrasi (Project TNI)
 
-**Klien: Koperasi Balai Sudirman / TNI**
+**Klien: Koperasi TNI**
 
 > *Sistem ERP yang mengintegrasikan Point of Sales (Ritel), Simpan Pinjam, dan Payroll dengan **Financial Logic Engine** (Auto-Journaling ke Akuntansi).*
 
@@ -54,11 +54,14 @@ Berikut adalah teknologi yang saya gunakan untuk membangun solusi:
 
 ### 2. Sistem Informasi Pengajuan Beasiswa Daerah
 
-**Klien: Pemerintah Daerah Gorontalo**
+**Klien: Pemerintah Daerah**
 
 > *Platform digitalisasi layanan publik untuk transparansi dan efisiensi penyaluran dana pendidikan.*
 
 Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahasiswa secara serentak (high traffic saat musim pendaftaran) dan workflow verifikasi bertingkat.
+
+![Banner Koperasi](./assets/monitoring.png)
+*(Screenshot: Dashboard Admin Monitoring Pengajuan Beasiswa)*
 
 * **Fitur Kunci:**
   * **Workflow Approval:** Alur verifikasi berjenjang (Pemohon -> Verifikator -> Kadis -> Pencairan).
@@ -66,6 +69,9 @@ Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahas
   * **Dashboard Monitoring:** Statistik real-time penyerapan anggaran beasiswa per kecamatan/jenjang pendidikan.
   * **Export Reporting:** Laporan otomatis format PDF/Excel untuk audit pemerintah.
 * **Tech Stack:** [PHP Native / Laravel], MySQL, AJAX.
+
+👉 **[BACA STUDI KASUS LENGKAP & LOGIKA AKUNTANSI DI SINI](./projects/scholarship-system.md)**
+*(Klik link di atas untuk melihat alur Auto-Journaling dan Screenshot detail)*
 
 ---
 
