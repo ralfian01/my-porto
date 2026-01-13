@@ -63,12 +63,12 @@ Fitur paling kompleks dalam sistem ini adalah **Auto-Journaling Engine**. Sistem
 <!-- Ganti LINK_GAMBAR di bawah dengan url gambar yang sudah diupload ke repo -->
 | Dashboard Monitoring Stok | Laporan Keuangan (PHU) |
 | :---: | :---: |
-| ![Dashboard Stok](LINK_GAMBAR_DASHBOARD_STOK) | ![Laporan PHU](LINK_GAMBAR_LAPORAN_PHU) |
+| ![Dashboard Stok](../assets/inventory-monitoring-dashboard.png) | ![Neraca Keuangan](../assets/finance-balance-sheet.png) |
 | *Real-time stock movement monitoring* | *Auto-generated Balance Sheet & Profit/Loss* |
 
 | Point of Sales | General Ledger |
 | :---: | :---: |
-| ![POS System](LINK_GAMBAR_POS) | ![Buku Besar](LINK_GAMBAR_BUKU_BESAR) |
+| ![POS System](../assets/point-of-sales.png) | ![Buku Besar](../assets/finance-general-ledger.png) |
 | *Kasir ritel terintegrasi* | *Drill-down detail per akun akuntansi* |
 
 ---
@@ -81,6 +81,6 @@ Fitur paling kompleks dalam sistem ini adalah **Auto-Journaling Engine**. Sistem
 
 ### 🛠 Tech Stack
 
-* **Backend:** [Laravel / Node.js], MySQL (Complex Queries & Stored Procedures).
-* **Frontend:** [Vue.js / React], Bootstrap/Tailwind.
+* **Backend:** [Laravel], PostgreSQL (Complex Queries & Stored Procedures).
+* **Frontend:** [React], Bootstrap/Tailwind.
 * **Integration:** Fingerprint SDK, REST API.
