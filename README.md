@@ -60,7 +60,7 @@ Berikut adalah teknologi yang saya gunakan untuk membangun solusi:
 
 Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahasiswa secara serentak (high traffic saat musim pendaftaran) dan workflow verifikasi bertingkat.
 
-![Banner Koperasi](./assets/monitoring.png)
+![Banner Beasiswa](./assets/monitoring.png)
 *(Screenshot: Dashboard Admin Monitoring Pengajuan Beasiswa)*
 
 * **Fitur Kunci:**
@@ -70,8 +70,8 @@ Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahas
   * **Export Reporting:** Laporan otomatis format PDF/Excel untuk audit pemerintah.
 * **Tech Stack:** [PHP Native / Laravel], MySQL, AJAX.
 
-👉 **[BACA STUDI KASUS LENGKAP & LOGIKA AKUNTANSI DI SINI](./projects/scholarship-system.md)**
-*(Klik link di atas untuk melihat alur Auto-Journaling dan Screenshot detail)*
+👉 **[BACA DETAIL PROJECT DI SINI](./projects/scholarship-system.md)**
+*(Klik link di atas untuk melihat detail project dan Screenshot detail)*
 
 ---
 
@@ -83,18 +83,24 @@ Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahas
 
 Website profil perusahaan yang responsif dan dioptimasi untuk mesin pencari (SEO), bertujuan meningkatkan *lead generation* dari klien potensial.
 
+![Banner Compro](./assets/monitoring.png)
+*(Screenshot: Halaman Company Profile)*
+
 * **Fitur Kunci:**
   * **Responsive Design:** Tampilan adaptif untuk Mobile, Tablet, dan Desktop.
   * **SEO Friendly:** Optimasi meta tags, sitemap, dan schema markup.
   * **Contact Form Integration:** Notifikasi langsung ke WhatsApp/Email admin saat ada pertanyaan proyek.
-* **Tech Stack:** [Wordpress / Next.js / HTML5], CSS3, JavaScript.
-* **Live Demo:** [Link Website Sahid Teknik]
+* **Tech Stack:** [React.js / HTML5], CSS3, JavaScript.
+* **Live Demo:** [https://sahidteknik.my.id/]
+
+👉 **[BACA DETAIL PROJECT DI SINI](./projects/sahid-teknik-cms.md)**
+*(Klik link di atas untuk melihat detail project dan Screenshot detail)*
 
 ---
 
 ## 📈 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=[USERNAME_GITHUB_ANDA]&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ralfian01&show_icons=true&theme=radical)
 
 ---
 
