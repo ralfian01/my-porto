@@ -1,9 +1,10 @@
 # 🎓 Sistem Informasi Manajemen Beasiswa Daerah (e-Beasiswa)
 
-> **Klien:** Pemerintah Daerah (Pemda) Gorontalo<br/>
+> **Klien:** Pemerintah Daerah<br/>
 > **Kategori:** G2C (Government to Citizen) / Public Service<Br/>
 > **Status:** Private Repository (Government IP)<br/>
-> **Role:** Fullstack Developer
+> **Role:** Fullstack Developer<br/>
+> 🔒 **Repository Status:** *Private (NDA Protected)* *Karena alasan kerahasiaan data klien dan kontrak kerja, source code tidak dapat dipublikasikan.*
 
 ### 📖 Executive Summary
 
