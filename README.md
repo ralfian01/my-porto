@@ -34,7 +34,7 @@ Berikut adalah teknologi yang saya gunakan untuk membangun solusi:
 
 ## 🚀 Featured Projects (Case Studies)
 
-### 1. 🏦 Sistem ERP & Koperasi Terintegrasi (Project TNI)
+### 1. 🏦 Sistem ERP & Koperasi Terintegrasi
 
 **Klien: Koperasi TNI**
 
@@ -45,7 +45,7 @@ Berikut adalah teknologi yang saya gunakan untuk membangun solusi:
 
 * **Masalah:** Ketidaksinkronan data antara kasir ritel, simpan pinjam, dan laporan keuangan manual.
 * **Solusi:** Membangun sistem terpusat di mana setiap transaksi operasional otomatis menjurnal neraca & laba rugi (Real-time Accounting).
-* **Tech Stack:** Laravel, MySQL (Stored Procedures), Vue.js.
+* **Tech Stack:** Laravel, MySQL (Stored Procedures), React.js.
 
 👉 **[BACA STUDI KASUS LENGKAP & LOGIKA AKUNTANSI DI SINI](./projects/koperasi-tni.md)**
 *(Klik link di atas untuk melihat alur Auto-Journaling dan Screenshot detail)*
@@ -58,7 +58,7 @@ Berikut adalah teknologi yang saya gunakan untuk membangun solusi:
 
 > *Platform digitalisasi layanan publik untuk transparansi dan efisiensi penyaluran dana pendidikan.*
 
-Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahasiswa secara serentak (high traffic saat musim pendaftaran) dan workflow verifikasi bertingkat.
+Membangun portal pendaftaran beasiswa yang menangani pengajuan data mahasiswa dan workflow verifikasi bertingkat.
 
 ![Banner Beasiswa](./assets/monitoring.png)
 *(Screenshot: Dashboard Admin Monitoring Pengajuan Beasiswa)*
@@ -68,7 +68,7 @@ Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahas
   * **Validasi Dokumen:** Upload dan pratinjau berkas (KTP, KTM, Transkrip) yang aman.
   * **Dashboard Monitoring:** Statistik real-time penyerapan anggaran beasiswa per kecamatan/jenjang pendidikan.
   * **Export Reporting:** Laporan otomatis format PDF/Excel untuk audit pemerintah.
-* **Tech Stack:** [PHP Native / Laravel], MySQL, AJAX.
+* **Tech Stack:** [Laravel], SQL Server, React.js.
 
 👉 **[BACA DETAIL PROJECT DI SINI](./projects/scholarship-system.md)**
 *(Klik link di atas untuk melihat detail project dan Screenshot detail)*
@@ -88,7 +88,6 @@ Website profil perusahaan yang responsif dan dioptimasi untuk mesin pencari (SEO
 
 * **Fitur Kunci:**
   * **Responsive Design:** Tampilan adaptif untuk Mobile, Tablet, dan Desktop.
-  * **SEO Friendly:** Optimasi meta tags, sitemap, dan schema markup.
   * **Contact Form Integration:** Notifikasi langsung ke WhatsApp/Email admin saat ada pertanyaan proyek.
 * **Tech Stack:** [React.js / HTML5], CSS3, JavaScript.
 * **Live Demo:** [https://sahidteknik.my.id/]

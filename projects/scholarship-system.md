@@ -76,12 +76,12 @@ Keamanan data adalah prioritas utama dalam aplikasi pemerintahan.
 ### 🚀 Dampak Implementasi (Impact)
 
 * **Paperless:** Mengurangi penggunaan ribuan lembar kertas per semester.
-* **Kecepatan Proses:** Memangkas waktu seleksi dari **3 bulan menjadi 3 minggu**.
+* **Kecepatan Proses:** Memangkas waktu seleksi menjadi lebih cepat dan efisien.
 * **Transparansi Publik:** Menghilangkan persepsi "Orang Dalam" karena semua status penolakan disertai alasan yang jelas di sistem.
 
 ### 🛠 Tech Stack
 
 * **Backend:** [Laravel], SQL Server.
 * **Frontend:** [React], Tailwind.
-* **Server:** Linux (Ubuntu/CentOS), Nginx.
+* **Server:** Linux (Ubuntu), Nginx.
 * **Tools:** PDF Generator (DomPDF), Excel Export.

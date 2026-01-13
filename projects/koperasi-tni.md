@@ -36,16 +36,6 @@ Modul manajemen bisnis riil (Sektor Ritel/Toko) yang terintegrasi penuh.
 * **Integrated POS:** Kasir front-end yang terhubung langsung dengan *Inventory Management* (Stok Opname & Alert System).
 * **Asset Management:** Pencatatan aset tetap inventaris dengan fitur **Depreciation Scheduler** (Penghitung penyusutan nilai aset otomatis setiap akhir bulan).
 
-#### 3. Human Resource & Payroll Automation
-
-Sistem penggajian cerdas yang mengurangi beban administrasi HR.
-
-* **Smart Sync Integration:** Sinkronisasi data dari mesin *fingerprint* fisik ke server cloud secara *real-time*.
-* **Complex Payroll Logic:** Kalkulasi gaji otomatis yang memperhitungkan:
-  * Log kehadiran & Keterlambatan.
-  * Rumus Lembur (Overtime).
-  * Potongan wajib (BPJS, PPh 21, Kasbon).
-
 ---
 
 ### 🧠 The "Financial Logic" Engine (Auto-Journaling)
@@ -59,7 +49,6 @@ Nilai jual utama dari pengembangan sistem ini adalah fitur **Otomasi Akuntansi**
 | **Teller Terima Setoran** | Submit Transaksi | `(Dr) Kas` <br> `(Cr) Liabilitas Simpanan Anggota` |
 | **Kasir Ritel Cetak Struk** | Transaksi Selesai | 1. `(Dr) Kas` & `(Cr) Pendapatan Penjualan` <br> 2. `(Dr) HPP` & `(Cr) Persediaan` (Metode Perpetual) |
 | **Procurement Beli Aset** | Approval PO | `(Dr) Aset Tetap` <br> `(Cr) Hutang Usaha / Kas` |
-| **HR Finalisasi Gaji** | Payroll Run | `(Dr) Beban Gaji & Tunjangan` <br> `(Cr) Hutang Gaji / Bank` |
 
 ---
 
@@ -87,5 +76,5 @@ Nilai jual utama dari pengembangan sistem ini adalah fitur **Otomasi Akuntansi**
 ### 🛠 Tech Stack
 
 * **Backend:** [Laravel], PostgreSQL (Complex Queries & Stored Procedures).
-* **Frontend:** [React], Bootstrap/Tailwind.
-* **Integration:** Fingerprint SDK, REST API.
+* **Frontend:** [React], Tailwind.
+* **Integration:** REST API.

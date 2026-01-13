@@ -24,7 +24,7 @@ Membangun **Custom CMS (Content Management System)** yang dilengkapi dengan **Mo
 
 #### 1. Digital Warranty Lookup Engine (Fitur Kunci)
 
-Ini adalah fitur *killer* yang membedakan CV. Sahid Teknik dari kompetitor lokal.
+Ini adalah fitur yang berfungsi untuk memeriksa status garansi produk pada CV. Sahid Teknik
 
 * **Mekanisme:** Pelanggan memasukkan **Nomor Invoice** atau **Nomor Seri Unit** pada kolom pencarian di website.
 * **Result:** Sistem menampilkan detail pengerjaan, tanggal servis, durasi garansi, dan status real-time (**Aktif** atau **Expired**).
@@ -34,8 +34,7 @@ Ini adalah fitur *killer* yang membedakan CV. Sahid Teknik dari kompetitor lokal
 
 Admin memiliki dashboard khusus untuk mengelola konten tanpa menyentuh kode (No-Code Content Management).
 
-* **CRUD Projects:** Tambah/Edit/Hapus foto proyek terbaru.
-* **SEO Meta Control:** Admin bisa mengedit judul dan deskripsi per halaman untuk keperluan optimasi SEO (Search Engine Optimization).
+* **CRUD Projects:** Tambah/Edit/Hapus foto produk.
 
 #### 3. Lead Generation Optimized
 
@@ -95,7 +94,7 @@ Fitur ini menggunakan logika pencarian database dan perbandingan tanggal (*date 
 
 ### 🛠 Tech Stack
 
-* **Core:** [Wordpress Custom Theme / Laravel / Next.js] (Pilih salah satu sesuai aslinya).
-* **Database:** MySQL (Relasi tabel: `Customers` -> `Services` -> `Warranties`).
-* **Frontend:** HTML5, CSS3, JavaScript (AJAX Search).
-* **Server:** Shared Hosting / cPanel (Deployment standar).
+* **Core:** [Laravel].
+* **Database:** MySQL.
+* **Frontend:** HTML5, CSS3, React.js.
+* **Server:** Shared Hosting / cPanel.
