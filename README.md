@@ -83,7 +83,7 @@ Membangun portal pendaftaran beasiswa yang menangani ribuan pengajuan data mahas
 
 Website profil perusahaan yang responsif dan dioptimasi untuk mesin pencari (SEO), bertujuan meningkatkan *lead generation* dari klien potensial.
 
-![Banner Compro](./assets/monitoring.png)
+![Banner Compro](./assets/compro-sahid.png)
 *(Screenshot: Halaman Company Profile)*
 
 * **Fitur Kunci:**
@@ -108,5 +108,5 @@ Website profil perusahaan yang responsif dan dioptimasi untuk mesin pencari (SEO
 
 Saya terbuka untuk peluang kerja Fulltime maupun kerjasama proyek.
 
-* **Email:** [email.anda@gmail.com]
-* **LinkedIn:** [linkedin.com/in/namaanda]
+* **Email:** [ralfian096.project@gmail.com]
+* **LinkedIn:** [linkedin.com/in/mrifkyalfian]
